@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+/* Artikel */
+.articles-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: #ffcc00;
+    margin-top: 40px;
+}
+
+/* Layout Artikel - 3 Artikel per Baris */
+.article-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.article {
+    background: #222;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article h3 {
+    color: #ffcc00;
+}
+
+.article p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #111;
+    padding: 10px;
+    text-align: center;
+}
